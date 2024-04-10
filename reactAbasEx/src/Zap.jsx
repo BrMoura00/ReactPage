@@ -28,7 +28,7 @@ function Zap() {
             onChange={(e) => setNome(e.target.value)}
           />
 
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email">E-mail</label>
           <input
             id="email"
             type="email"
