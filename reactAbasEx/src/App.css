@@ -1,0 +1,102 @@
+#root {
+  width: 1920px;  
+}
+
+.container-father {
+  height: auto;
+  width: 1920;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 5vw;
+  padding: 5vw;
+} 
+
+.container-logo  {
+  height: auto;
+  justify-content: space-between;
+}
+
+.logo-title {
+  height: 100px;
+}
+
+.logo-pa {
+  margin-top: 100px;
+}
+
+.router-par {
+  padding-top: 93px;
+}
+
+.npm-title {
+  padding-bottom: 80px;
+}
+
+.npm-par {
+  padding-top: 80px;
+}
+
+.logo {
+  height: 6em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+
+.logo-axios {
+  height: 6em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo-router {
+  height: 5.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo-npm {
+  height: 4em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo-node {
+  height: 6em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo-node:hover {
+  filter: drop-shadow(0 0 2em #5cff11d5);
+}
+
+.logo-npm:hover {
+  filter: drop-shadow(0 0 2em #ff3511d5);
+}
+
+.logo-router:hover {
+  filter: drop-shadow(0 0 2em #ff00008f);
+}
+
+.logo-axios:hover {
+  filter: drop-shadow(0 0 2em #0d7affaa);
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
